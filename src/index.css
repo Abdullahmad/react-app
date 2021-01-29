@@ -573,7 +573,6 @@ video {
 * {
   background-color: black;
   color: white;
-  /* box-sizing: border-box; */
 }
 
 body {
@@ -609,17 +608,6 @@ code {
 .cony {
   border-bottom: 1px solid #242424;
   padding-bottom: 2rem;
-}
-
-.opt {
-  background-color: #242424;
-  height: 50rem;
-}
-
-.images {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background-color: black;
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
