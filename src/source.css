@@ -1,8 +1,15 @@
 
 @import "tailwindcss/base";
 @import "tailwindcss/components";
+* {
+  background-color: black;
+  color: white;
+  /* box-sizing: border-box; */
+  
+}
 body {
   margin: 0;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,10 +17,44 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+.events {
+  border: .2px solid #e5e5e5;
+  color: #D24B72;
+  font-size: larger;
+  border-radius: 3rem;
+  padding: .3rem .5rem;
+  transition: .2s;
+}
+
+.events:hover {
+  color: white;
+  background-color: #D24B72;
+  cursor:pointer;
+}
+
+.cony {
+  border-bottom: 1px solid #242424;
+  padding-bottom: 2rem;
+}
+
+.opt {
+  background-color: #242424;
+  height: 50rem;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: black;
+}
+
+.haqi 
 
 @import "tailwindcss/utilities";
